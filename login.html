@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Login Page</title>
+    <style>
+
+      .background-home{
+        width: 1000px;
+        margin-left: 300px;
+        margin-top: 0px;
+      }
+
+      .first-box{
+        box-shadow: 0 6px 20px 0 rgba(0,0,0,0.19);
+        overflow: hidden;
+        border: 5px solid black;
+        border-radius: 20px;
+        margin: 300px;
+        margin-top: 50px;
+        text-align: center;
+        transition: background-color 1s;
+      }
+
+      .first-box:hover{
+        background-color: bisque;
+      }
+
+      .login-page{
+        font-family: monospace;
+        margin-top: 7px;
+        margin-bottom: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: default;
+      }
+
+      .firstname-box{
+        width: 200px;
+        height: 30px;
+        margin-left: 10px;
+        border-radius: 5px;
+        border: 1px solid rgb(116, 116, 116);
+        cursor: pointer;
+      }
+
+      .firstname-box:hover{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      }
+
+      .password-box:hover{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      }
+
+      .password-box{
+        width: 200px;
+        height: 30px;
+        margin-left: 10px;
+        border-radius: 5px;
+        border: 1px solid rgb(116, 116, 116);
+        cursor: pointer;
+      }
+    </style>
+
+    <style>
+      .all-text{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-top: 1px;
+        letter-spacing: 0.5px;
+      }
+
+      .button-1{
+        background-color: whitesmoke;
+        border-radius: 5px;
+        font-size: 15px;
+        text-align: center;
+      }
+
+      .remember{
+        margin-left: 5px;
+        font-size: 10px;
+        color: blue;
+      }
+
+      .forgot{
+        margin-left: 25px;
+        font-size: 15px;
+      }
+
+      .button{
+        font-size: 25px;
+        border: none;
+        border-radius: 10px;
+        height: 50px;
+        width: 100px;
+        background-color: black;
+        color:white;
+        margin-bottom: 20px;
+        text-decoration: none;
+      }
+      .button:hover{
+        background-color: rgb(217, 131, 25);
+      }
+      .button:active{
+        opacity: 0.5;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="background-home">
+      <div class="first-box"><br>
+
+      <img src="https://www.pngall.com/wp-content/uploads/5/Profile-Avatar-PNG.png" alt="Profile image" width="300"><br>
+
+      <h1 class="login-page"> Edgedev Login</h1><br>
+      <form class="all-text">
+        <label for="Username">Username</label>
+        <input class="firstname-box" type="text" id="Username" placeholder="eg:WhaleEdgen"><br><br>
+
+        <label for="Password">Password</label>
+        <input class="password-box" type="password" id="Password" placeholder="eg:123"><br><br>
+
+        <input class="remember" type="checkbox"> Remember Me
+        <a class="forgot" href="https://dashboard.layeredge.io/"> Forgot password?</a><br><br><br>
+
+        <button class="button"><a href="https://dashboard.layeredge.io/" style="color: white; text-decoration: none;"> Login</a></button>
+
+      </form>
+      </div>
+    </div>
+  </body>
+</html>

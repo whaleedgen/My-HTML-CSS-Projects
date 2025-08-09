@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Marksheet</title>
+    <style>
+      body{
+        background-color: #fbedf2;
+      }
+      .css{
+        margin: 450px;
+        margin-top: 0px;
+        border-collapse: collapse;
+        min-width: 400px;
+        border-radius: 15px 15px 0 0;
+        overflow: hidden;
+        box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.5cm;
+      }
+
+      .css thead tr{
+        background-color: #fe196d;
+        text-align: left;
+        color: white;
+      }
+
+      .css th, .css td{
+        padding: 12px 20px;
+      }
+
+      .css tbody tr:nth-of-type(even){
+        background-color: #ffd7e3;
+      }
+
+      .css tbody tr:last-of-type{
+        border-bottom: 3px solid #fe196d;
+      }
+
+      .bold{
+        font-weight: bold;
+      }
+
+      .header{
+        margin-top: 75px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #df0052;
+      }
+
+      .css tbody tr{
+        transition: background-color 1s;
+        cursor: pointer;
+      }
+
+      .css tbody tr:hover{
+        background-color: #ffbdd5;
+      }
+    </style>
+  </head>
+  <title> Marks Sheet</title>
+
+  <body>
+      <h1 class="header"> Marks Sheet 2025</h1>
+
+      <table class="css">
+      <thead>
+        <tr>
+          <th> Serial Number</th>
+          <th> Name</th>
+          <th> Maths</th>
+          <th> Science</th>
+          <th> English</th>
+          <th> Total Marks</th>
+        </tr>
+
+        <tbody>
+          <tr>
+            <td> 1</td>
+            <td> Afham</td>
+            <td> 99</td>
+            <td> 93</td>
+            <td> 91</td>
+            <td class="bold"> 283</td>
+          </tr>
+
+          <tr>
+            <td> 2</td>
+            <td> Rasheed</td>
+            <td> 98</td>
+            <td> 83</td>
+            <td> 96</td>
+            <td class="bold"> 277</td>
+          </tr>
+
+          <tr>
+            <td> 3</td>
+            <td> Sadiq</td>
+            <td> 91</td>
+            <td> 93</td>
+            <td> 96</td>
+            <td class="bold"> 280</td>
+          </tr>
+
+          <tr>
+            <td> 4</td>
+            <td> Sheez</td>
+            <td> 99</td>
+            <td> 96</td>
+            <td> 92</td>
+            <td class="bold"> 287</td>
+          </tr>
+
+          <tr class="hover">
+            <td> 5</td>
+            <td> Oluvato</td>
+            <td> 86</td>
+            <td> 98</td>
+            <td> 93</td>
+            <td class="bold"> 277</td>
+          </tr>
+        </tbody>
+      </thead>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Registration Page</title>
+
+    <style>
+      body{
+        background-color: #fbfaef;
+      }
+
+      .image{
+        text-align: center;
+        margin-top: 40px;
+      }
+
+      .heading{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        cursor: default;
+      }
+
+      .nonog-background{
+        box-shadow: 0px 6px 20px 0 rgba(0, 0, 0, 0.10);
+        background-color: #FFFACC;
+        text-align: center;
+        border: 0px solid black;
+        border-radius: 20px;
+        margin: 500px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        transition: background-color 1s;
+      }
+
+      .nonog-background:hover{
+        background-color: bisque;
+      }
+
+      .name{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .border{
+        height: 25px;
+        width: 300px;
+        border-radius: 5px;
+        border: 0.1px solid rgb(187, 187, 187);
+        cursor: pointer;
+      }
+
+      .radio{
+        border: 0.1px solid rgb(187, 187, 187);
+        color: rgb(187, 187, 187);
+        cursor: pointer;
+      }
+
+      .button{
+        font-family: Arial, Helvetica, sans-serif;
+        border: 0px solid black;
+        border-radius: 10px;
+        width: 100px;
+        height: 30px;
+        background-color: rgb(36, 116, 255);
+        color: white;
+        margin-right: 20;
+        transition: background-color, color 0.8s;
+        cursor: pointer;
+      }
+
+      .button:hover{
+        color: rgb(36, 116, 255);
+        background-color: white;
+      }
+
+      .button:active{
+        opacity: 0.5;
+      }
+
+      .button1{
+        font-family: Arial, Helvetica, sans-serif;
+        border: 0px solid black;
+        border-radius: 10px;
+        width: 100px;
+        height: 30px;
+        background-color: rgb(240, 80, 80);
+        color: white;
+        transition: background-color, color 0.8s;
+        cursor: pointer;
+      }
+
+      .button1:hover{
+        color: rgb(240, 80, 80);
+        background-color: white;
+      }
+
+      .button1:active{
+        opacity: 0.5;
+      }
+
+      input[type="date"]{
+        color: rgb(110, 110, 110);
+        cursor: pointer;
+      }
+
+      .linked:hover{
+        color: rgb(36, 116, 255);
+      }
+
+    </style>
+  </head>
+
+  <body>
+      <div class="nonog-background">
+
+        <img class="image" src="https://www.pngall.com/wp-content/uploads/5/Profile-Avatar-PNG.png" alt="Profile image" width="150"><br>
+        <h1 class="heading"> EdgeDev Registration</h1><br>
+
+        <form class="name">
+          <input class="border" type="text" id="Name" placeholder="Name" required><br><br>
+
+          <input class="border" type="email" id="email" placeholder="Email" required><br><br>
+
+          <input class="border" type="password" id="Password" placeholder="Password" required><br><br>
+
+          <input class="border" type="password" id="password" placeholder="Confirm Password" required><br><br>
+
+          <input class="border" type="date" id="date" placeholder="Date of Birth"><br><br>
+
+          <label> Gender</label>
+          <input class="radio" type="radio" name="Gender"> Male
+          <input class="radio" type="radio" name="Gender"> Female
+          <input class="radio" type="radio" name="Gender"> Other<br><br><br>
+
+          <button class="button"> Submit</button>
+          <button class="button1"> Reset</button>
+
+        </form><br><br>
+      </div>
+  </body>
+</html>
