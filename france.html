@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .outerbox{
+            box-shadow: 0 4px 16px 0 rgba(0,0,0,0.19);
+            overflow: hidden;
+            height: 200px;
+            width: 300px;
+            background-color: aquamarine;
+            display: flex;
+            flex-direction: row;
+            margin-left: auto;
+            margin-right: auto;margin-top: 200px;
+        }
+
+        .blue, .white, .red{
+            border: 0px solid black;
+            flex: 1px;
+        }
+
+        .blue{
+            background-color: blue;
+
+        }
+
+        .white{
+            background-color: white;
+
+        }
+
+        .red{
+            background-color:red;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="outerbox">
+        <div class="blue"></div>
+        <div class="white"></div>
+        <div class="red"></div>
+    </div>
+</body>
+</html>

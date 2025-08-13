@@ -65,6 +65,7 @@
         overflow: hidden;
         display: flex;
         justify-content: center;
+     
         margin: 0px;
         transition: background-color 1s;
       }
@@ -92,13 +93,15 @@
       }
 
       .story{
-                margin-top: 100px;
+                margin-top: 70px;
                 margin-left: 100px;
                 margin-bottom: 0px;
+                width: 1350px;
             }
 
             .story1{
                 color: greenyellow;
+                border: 0px solid black;
                 transition: font-size 0.5s ease-in-out;
             }
 
@@ -108,7 +111,7 @@
 
             .story2{
                 color: white;
-                width: 640px;
+                width: 700px;
                 margin-bottom: 0px;
                 padding-bottom: 0px;
             }
@@ -116,7 +119,7 @@
             .footer{
               font-size: 9px;
               text-align: center;
-              margin-top: 100px;
+              margin-top: 160px;
               margin-bottom: 0px;
               margin-right: auto;
               margin-left: auto;
@@ -133,6 +136,45 @@
               background-color: #000000;
             }
 
+            aside{
+              float: right;
+              margin-top: 0px;
+              padding-right: 100px;
+              padding-bottom: 30px;
+              font-size: 25px;
+              font-weight:600;
+              color: aliceblue;
+            }
+
+            .aside1{
+              margin-bottom: 0px;
+              width: 350px;
+              height: 250px;
+              text-align: center;
+              
+            }
+
+            .asidediv{
+            overflow: hidden;
+            border-collapse: collapse;
+            border: 0px solid black;
+            background-color: #0f9b0f;
+            border-radius: 50px 50px 50px 50px;
+            box-shadow: 0 6px 20px 0 rgba(255, 234, 0, 0.745);
+            margin-bottom: 0px;
+            transition: box-shadow 0.3s ease-in-out;
+            }
+
+            .asidediv:hover{
+              box-shadow: 0 12px 40px 0 rgb(255, 234, 0);
+
+            }
+
+            .picturefont{
+              text-align: center;
+            }
+
+
     </style>
 
   </head>
@@ -148,11 +190,16 @@
           </ul>
         </nav>
     </div>
+
     <main class="story">
-        <aside class="aside">
-          <class="aside1"><img src="https://static.vecteezy.com/system/resources/previews/011/153/368/original/3d-website-developer-working-on-laptop-illustration-png.png" width="100px" alt="image">
-        </aside>
         <h2 class="story1"> What's EdgeDev?</h2>
+        
+        <aside class="right">
+          <div class="asidediv">
+            <p class="aside1"><img src="https://static.vecteezy.com/system/resources/previews/011/153/368/original/3d-website-developer-working-on-laptop-illustration-png.png" width="300px" alt="image"></p>  
+            <p class="picturefont"> Edgedev Program</p>
+          </div>
+          </aside>
         <p class="story2"> EdgeDev by Layeredge is a powerful and beginner-friendly tech learning initiative designed to empower aspiring developers with real-world skills. The course walks you through the fundamentals of web development, starting from HTML and CSS, and gradually builds up to advanced topics like JavaScript, React, and full-stack development.<br><br> What makes EdgeDev unique is its hands-on, project-based approach—turning theory into practice with live assignments, mentor support, and a vibrant peer community. Powered by Layeredge, a forward-thinking platform fostering growth in emerging tech spaces, EdgeDev is more than just a course—it's a gateway to unlocking your potential in the world of tech, completely free and accessible to all.</p>
     </main>
 
